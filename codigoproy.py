@@ -5,6 +5,7 @@ import networkx as nx
 import matplotlib.pyplot as plt
 
 # crear el grafo vacío
+# utilizamos la funcion nx.Graph importada desde networkx
 metro = nx.Graph()
 
 # agregar las estaciones (nodos) - solo 5 de prueba
